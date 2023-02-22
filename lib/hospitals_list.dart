@@ -1,0 +1,178 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
+
+// ignore: must_be_immutable
+class HospitalsListPage extends StatelessWidget {
+  final headings = <String>[
+    'Chinhoyi Provintal Hospital',
+    'CUT Clinic',
+    'RSHM Life Care Centre Clinic',
+    'Blue Start: Chitambo Surgery',
+    'Chinhoyi Eye Centre',
+    'Herbal World Chinhoyi 1',
+  ];
+
+  final locations = <String>[
+    'Harare road, Chinhoyi',
+    'Chinhoyi, Chinhoti University',
+    'Community health centre, Chinhoyi',
+    'R92, Chinhoyi',
+    'F43 road, Chinhoyi',
+    'Mzimba shops, Chinhoyi',
+  ];
+
+  HospitalsListPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Color(0xffDDEDF9),
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xffDDEDF9),
+                Color(0xffFFFFFF),
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: Column(
+              children: [
+                Container(
+                  //color: Color(0xffE7F1FF),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 25.0, vertical: 15.0),
+                    child: Row(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: Row(
+                            children: const [
+                              Icon(
+                                Icons.arrow_back,
+                                color: Color(0xff828282),
+                                size: 20,
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  //color: Color(0xffE7F1FF),
+                  child: Padding(
+                    padding: const EdgeInsets.only(
+                      left: 25.0,
+                      right: 25.0,
+                      top: 5.0,
+                      bottom: 15.0,
+                    ),
+                    child: Row(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: Row(
+                            children: [
+                              Text(
+                                "Nearest health help centers",
+                                style: GoogleFonts.roboto(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w500,
+                                    color: const Color(0xff219653)),
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: ListView.builder(
+                    padding: const EdgeInsets.symmetric(horizontal: 15.0),
+                    itemCount: headings.length,
+                    itemBuilder: (context, index) {
+                      return Container(
+                        decoration: const BoxDecoration(
+                            border: Border(
+                                bottom: BorderSide(
+                                    color: Colors.grey, width: 0.4))),
+                        margin: const EdgeInsets.symmetric(vertical: 6.0),
+                        child: GestureDetector(
+                          onTap: () {
+                            //Directions
+                          },
+                          child: ListTile(
+                            title: GestureDetector(
+                              onTap: () {
+                                //MapsLauncher.launchCoordinates(
+                                //   37.4220041, -122.0862462);
+                              },
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            headings[index],
+                                            style: GoogleFonts.roboto(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.w500,
+                                                color: const Color(0xff828282)),
+                                          ),
+                                          const SizedBox(
+                                            height: 5,
+                                          ),
+                                          Row(
+                                            children: [
+                                              Text(
+                                                locations[index],
+                                                style: GoogleFonts.roboto(
+                                                    fontSize: 12,
+                                                    fontWeight: FontWeight.w400,
+                                                    color: const Color(
+                                                        0xff828282)),
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const Icon(
+                                    Icons.arrow_forward_ios,
+                                    size: 15,
+                                    color: Color(0xff828282),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                )
+              ],
+            ),
+          ),
+        ));
+  }
+}

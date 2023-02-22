@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33081504587",
+    "project_id": "nadd-project",
+    "storage_bucket": "nadd-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33081504587:android:3b7bb8b512b02e1ef52ece",
+        "android_client_info": {
+          "package_name": "com.example.nadd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33081504587-ro3fc4p54ep0kslkkedsptghnrp8t5gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN4wBV4dvW_RHCFaWK5EEwKAktHG4c4Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33081504587-ro3fc4p54ep0kslkkedsptghnrp8t5gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

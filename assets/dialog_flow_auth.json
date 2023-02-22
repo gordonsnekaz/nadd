@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nakisa-digital-doctor-edd9",
+  "private_key_id": "455d912884a72c6f6e631992f2c431f2733e708b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCndE1POmO+1TQv\nNK8kY1Ah/eqESd7h44VLRmHyyV2+nE9iEay3H4cAxt14E+fXhiWKsDhAh70ongCz\ncn++bsLCGBePvlsnTHtCZmbj4mvqvXtd7ftl3/dxU/DMj/+kuAPmDQqyCfd6p7hL\n0LfyUUjzI5fYKMIQduVcKAwmHjjCGiiykYgsZ+20FvjGvBplX/CJOOaL1USc37Bn\ncfl4zFiIXEk4rO/ZpbZly4y2lMHheFR/9PqGO+pIfRHcZ9m5KS8CsnpnES4qrkcW\nwptRg6peu5SsRdVlG7FBreNPxHJLaZcatbe+F9AIqte6L17pRey3tlkgdSbg8wCS\no3Sq1xXxAgMBAAECggEACeCQpX633swWoujZooIqejF5rB9ArVRNSs5g/VV8A7/r\n6B32G8BupyYTxCnFwBm34daudWf29AwLKzUywcR+FRLKDlQtGO6oSpddtE1pDinq\nZUpMojVevr7eckKAKB15Orru3ueQQxoyLblRpae+b3uxpjIT7a1bBAo8r+GSeX3B\nwN0z20iO+Q64ZDoQYCgxAiOL/7+E2E3YdbDjEvVh/Q/19542rwtZmAkbT0PozAgX\naJHKx+m96Xaw32wL/oqrPN57X00BVR9t8gI8r+x4NfrLYUadhZqVDaQmx1dBJN6Z\nOxjCNaoqsNNcVj1dk97Lrpos3o4FgcRLaPWUtiA1kQKBgQDSy6HnOa7SUXs21oFy\nMkbJqm+rVY2/0t74RfjY7WIe/33eKz0spa4V4zQgCND1XsUt9V7L6X/a/DsWW8iH\nJcthZ7bTxU9PTHNpMDtPQ0IEunfyAfYZ7JilrxfHoy1Fcj4DICp5h7fpF1G7QIx0\nye0GbUFszbZP5o9d/bIAvuaCzQKBgQDLXU2pyjuSyluOh6zl0UUXcLUAc6gk+YGE\nv+FQJddX5ukIvNoe0WEq+yk/wRZ24wTdKl83Cs73nsbwIGHRKDGwwyfIxhE1i/7X\nXAUZRfZoWsyhDJaVVVFmX33z4pU+od4+alStHA8KhxPDkA/X1Dl5CfxuLzC9scx6\nY5tcf20HtQKBgBdiK3Wg+nmuPELbDMUEOsIIPBb/iJfs5nsYGADIZIgXw3ivxzt6\nrZMT/yZGlBeECc+NVpS8NEiwjkVurRIA6UzG2osnaiLb0jmq9glW5q3rmX6pJQm/\nKzfF8pdczJrVj3d9S/jrS0V6JsDk6i/Sbo618/oD3+OBKgo9KE/Y3W1JAoGAPdQH\nKajvhch6H5JGUbTXMbI1hYakR2GILCj+QpTOrM3qaZqpIhd8WEn2F4kH4GtS7j7U\npfJmTEh8qULfGm0C9n/O167ISqRefXFfp3hq2v1IG2qtWYeP8PT1YTGxOFKUNBu1\n1M+kDwpUSu/AsVi3hIIxufok8ndc+JTSBkRDjMUCgYEAnRxlIvLtMBsCG62LFS4h\nyODWahfa8qgOU2qKhRw/9dvGHy0tI+eBugObmm44UblMJDUu/NSZD5k6vv6zX1pG\nceagv3C6CYhzzvfuG93x5/P0WRjtRwmBkCDvV/kmN5Uz40ryJaNFDEEdvQSisF6q\nt1oXyybRu7P7E7RbZXdznQw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nakisa-dital-bot@nakisa-digital-doctor-edd9.iam.gserviceaccount.com",
+  "client_id": "106433907608453924325",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nakisa-dital-bot%40nakisa-digital-doctor-edd9.iam.gserviceaccount.com"
+}
